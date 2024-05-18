@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "New to Old Reddit",
+    "description": "Redirects links to new reddit to old reddit.",
+    "version": "1.0",
+    "content_scripts": [
+	{
+	    "js": ["content.js"],
+	    "matches": ["https://www.reddit.com/*"]
+	}
+    ]
+}
